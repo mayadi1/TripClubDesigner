@@ -462,7 +462,7 @@
                                     <action selector="acceptButtonPressed:" destination="BvT-U9-C4Z" eventType="touchUpInside" id="TLg-W3-F0q"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2018-02-04 at 3.40.26 AM" translatesAutoresizingMaskIntoConstraints="NO" id="cy8-aM-TyV">
+                            <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2018-02-04 at 3.40.26 AM" translatesAutoresizingMaskIntoConstraints="NO" id="cy8-aM-TyV">
                                 <rect key="frame" x="10" y="93" width="53" height="542"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>

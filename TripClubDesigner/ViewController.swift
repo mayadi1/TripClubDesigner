@@ -20,13 +20,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     
     override func viewWillAppear(_ animated: Bool) {
-        retriveInfo()
+      
     }
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+          retriveInfo()
         // Do any additional setup after loading the view, typically from a nib.
     }
     
