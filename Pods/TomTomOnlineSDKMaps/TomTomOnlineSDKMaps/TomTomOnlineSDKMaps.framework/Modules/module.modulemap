@@ -1,0 +1,6 @@
+framework module TomTomOnlineSDKMaps {
+  umbrella header "TomTomOnlineSDKMaps.h"
+
+  export *
+  module * { export * }
+}

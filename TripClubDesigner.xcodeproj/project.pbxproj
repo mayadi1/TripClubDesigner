@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1810EBAB20275160001A212E /* NotifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810EBAA20275160001A212E /* NotifyViewController.swift */; };
 		1822FE2A20271E6D0047D00C /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1822FE2620271E6C0047D00C /* HeaderCell.swift */; };
 		1822FE2B20271E6D0047D00C /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1822FE2720271E6D0047D00C /* Section.swift */; };
 		1822FE2C20271E6D0047D00C /* ContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1822FE2820271E6D0047D00C /* ContentCell.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1810EBAA20275160001A212E /* NotifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifyViewController.swift; sourceTree = "<group>"; };
 		1822FE2620271E6C0047D00C /* HeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
 		1822FE2720271E6D0047D00C /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 		1822FE2820271E6D0047D00C /* ContentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentCell.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				1822FE2720271E6D0047D00C /* Section.swift */,
 				1822FE2920271E6D0047D00C /* TripViewController.swift */,
 				1877E01D20271845007CB5E2 /* Main.storyboard */,
+				1810EBAA20275160001A212E /* NotifyViewController.swift */,
 				1877E02020271845007CB5E2 /* Assets.xcassets */,
 				189F925520271CC800AA7FB9 /* GoogleService-Info.plist */,
 				1877E02220271845007CB5E2 /* LaunchScreen.storyboard */,
@@ -236,6 +239,7 @@
 				1822FE2D20271E6D0047D00C /* TripViewController.swift in Sources */,
 				18A65C39202719A600214239 /* Trip.swift in Sources */,
 				1822FE2C20271E6D0047D00C /* ContentCell.swift in Sources */,
+				1810EBAB20275160001A212E /* NotifyViewController.swift in Sources */,
 				1877E01C20271845007CB5E2 /* ViewController.swift in Sources */,
 				1877E01A20271845007CB5E2 /* AppDelegate.swift in Sources */,
 			);

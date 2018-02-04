@@ -18,7 +18,7 @@ class TripViewController: UIViewController {
     var trip = [Trip]()
     var selectedTrip = 0
     
-    var data : [Section] = [Section(title: "Section 1", list: ["Row 1", "Row 2", "Row 3"], isColleps: true),Section(title: "Section 2", list: ["Row 1", "Row 2", "Row 3"], isColleps: true),Section(title: "Section 3", list: ["Row 1", "Row 2", "Row 3"], isColleps: true),Section(title: "Section 4", list: ["Row 1", "Row 2", "Row 3"], isColleps: true),Section(title: "Section 5", list: ["Row 1", "Row 2", "Row 3"], isColleps: true)]
+    var data : [Section] = [Section(title: "Address", list: ["San Francsico"], isColleps: true),Section(title: "Section 2", list: ["Row 1"], isColleps: true),Section(title: "Section 3", list: ["Row 1"], isColleps: true),Section(title: "Section 4", list: ["Row 1"], isColleps: true),Section(title: "Section 5", list: ["Row 1"], isColleps: true),Section(title: "Section 6", list: ["Row 1"], isColleps: true)]
     
     override func viewDidLoad() {
         super.viewDidLoad()

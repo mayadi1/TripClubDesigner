@@ -44,7 +44,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellID", for: indexPath)
         
         cell.textLabel?.text = trips[indexPath.row].name
-        
+        cell.detailTextLabel?.text = trips[indexPath.row].city
         return cell
     }
     
@@ -77,7 +77,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let conditionall = ref.child("dummy")
 
         conditionall.observe(.childAdded, with:  { (snapshot) in
-            self.trips.append(Trip(passedAddedDate: 77, passedAdditionalFacilityInfo: "ss", passedCity: "Sss", passedFacilityPhoto: "Ss", passedLat: 44, passedLong: 33, passedName: "s", passedState: "S", passedStreetAddress: "S", passedUserIDPostingThis: "S", passedZip: "s", passedFacilityUid: "s"))
+            self.trips.append(Trip(passedAddedDate: 77, passedAdditionalFacilityInfo: "ss", passedCity: "Ssn Francisco", passedFacilityPhoto: "Ss", passedLat: 44, passedLong: 33, passedName: "Traveler", passedState: "S", passedStreetAddress: "S", passedUserIDPostingThis: "S", passedZip: "s", passedFacilityUid: "s"))
             self.tableView.reloadData()
         })
     }
