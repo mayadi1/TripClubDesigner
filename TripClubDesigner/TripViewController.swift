@@ -25,7 +25,9 @@ class TripViewController: UIViewController {
         
         tableViewSetup()
     }
-
+    @IBAction func acceptButtonPressed(_ sender: Any) {
+    }
+    
 }
 extension TripViewController : UITableViewDelegate,UITableViewDataSource{
     func tableViewSetup()  {

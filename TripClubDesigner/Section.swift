@@ -7,6 +7,7 @@
 //
 
 import Foundation
+
 class Section {
     var title : String?
     var list : [String]?
