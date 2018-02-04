@@ -28,6 +28,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
           retriveInfo()
+        dummyFunc()
         // Do any additional setup after loading the view, typically from a nib.
     }
     
@@ -60,6 +61,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 }
             }
         })
+        self.tableView.reloadData()
     }
     
     
@@ -68,6 +70,16 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         dest.trip = self.trips
         dest.selectedTrip = (self.tableView.indexPathForSelectedRow?.row)!
         
+    }
+    
+    
+    func dummyFunc(){
+        let conditionall = ref.child("dummy")
+
+        conditionall.observe(.childAdded, with:  { (snapshot) in
+            self.trips.append(Trip(passedAddedDate: 77, passedAdditionalFacilityInfo: "ss", passedCity: "Sss", passedFacilityPhoto: "Ss", passedLat: 44, passedLong: 33, passedName: "s", passedState: "S", passedStreetAddress: "S", passedUserIDPostingThis: "S", passedZip: "s", passedFacilityUid: "s"))
+            self.tableView.reloadData()
+        })
     }
     
 }
